@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    max-width:650px;
+    margin:auto;
+}
+header{
+    flex-grow: 1;
+    padding-top: 100px;
+}
+h1{
+    color: green;
+}
+img{
+    width:50%;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 15pt;
+    padding: 3px;
+}
+input{
+    border: 1px solid gray;
+}
+button{
+    background-color: gray;
+    color:white;
+}
